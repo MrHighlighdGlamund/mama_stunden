@@ -1,4 +1,5 @@
 use dioxus::prelude::*;
+pub mod database;
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
@@ -31,6 +32,7 @@ pub fn Hero() -> Element {
                                 style: "flex: 1; background-color: #808080; color: white; border: none; padding: 10px; margin: 5px;",
                                 onclick: move |_| {
                                     println!("Monat auswaehlen");
+                                    database::get_months("Gaby".to_string());
                                 },
                                 "Monat auswaehlen"
                             }
@@ -48,36 +50,7 @@ pub fn Hero() -> Element {
                     div {
                             id: "scrollable", // ✅ This matches the CSS selector
                             div {
-                                button {
-                                    "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                                }
-                                button {
-                                    "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                                }
-            button {
-                                    "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                                }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
-        button {
-                                "01.10.2024  8:00 - 10:00  Linie 76/77   08.50 Std  145.00 Std"
-                            }
+                                
                             }
 
                         }

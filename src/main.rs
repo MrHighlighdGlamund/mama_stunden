@@ -50,7 +50,18 @@ pub fn Hero() -> Element {
                     div {
                             id: "scrollable", // ✅ This matches the CSS selector
                             div {
-                                
+                                for month in database::get_months("Gaby".to_string()) {
+                                    div {
+                                        button {
+                                            style: "flex: 1; background-color: #808080; color: white; border: none; padding: 10px; margin: 5px;",
+                                            onclick: move |_| {
+                                                println!("Button 2 clicked!");
+                                            },
+                                            "{month.month} {month.year}"
+                                    }
+                                    }
+                                }
+
                             }
 
                         }

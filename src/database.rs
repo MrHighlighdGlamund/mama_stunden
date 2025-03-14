@@ -1,21 +1,21 @@
 use rusqlite::{params, Connection, Result};
 #[derive(Debug)]
 pub struct Person {
-    id: i32,
-    name: String,
-    months: Vec<Month>,
+    pub id: i32,
+    pub name: String,
+    pub months: Vec<Month>,
 }
 #[derive(Debug)]
 pub struct Month {
-    month: String,
-    year: i32,
-    entries: Vec<Entry>,
+    pub month: String,
+    pub year: i32,
+    pub entries: Vec<Entry>,
 }
 #[derive(Debug)]
 pub struct Entry {
-    date: String,
-    text: String,
-    hours: f32,
+    pub date: String,
+    pub text: String,
+    pub hours: f32,
 }
 pub fn get_months(name: String) -> Vec<Month> {
     let conn = Connection::open("database.db").unwrap();

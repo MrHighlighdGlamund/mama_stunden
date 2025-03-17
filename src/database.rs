@@ -30,6 +30,7 @@ pub fn get_months(name: String) -> Vec<Month> {
     // get entries for 
     let mut months: Vec<Month> = Vec::new();
     for month in month_iter {
+        println!("{:?}", month);
         months.push(month.unwrap());
     }
     months
@@ -65,12 +66,28 @@ pub fn create_month(person_id: i32, month: Month) {
         params![person_id, month.month, month.year],
     ).unwrap();
 }
+pub fn get_all_profiles() -> Vec<Person> {
+    let conn = Connection::open("database.db").unwrap();
+    let mut stmt = conn.prepare("SELECT * FROM persons").unwrap();
+    let person_iter = stmt.query_map(params![], |row| {
+        Ok(Person {
+            id: row.get(0)?,
+            name: row.get(1)?,
+            months: Vec::new(),
+        })
+    }).unwrap();
+    let mut people: Vec<Person> = Vec::new();
+    for person in person_iter {
+        people.push(person.unwrap());
+    }
+    people
+}
 
 pub fn save_data() {
     let conn = Connection::open("database.db").unwrap();
     let test_people = Person {
-        id: 1,
-        name: "Gaby".to_string(),
+        id: 2,
+        name: "Hermann".to_string(),
         months: vec![
             Month {
                 month: "January".to_string(),

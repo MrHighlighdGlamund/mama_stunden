@@ -1,6 +1,15 @@
 use dioxus::prelude::*;
 pub mod database;
 
+#[derive(Clone, PartialEq)]
+pub enum View {
+    ProfileSelection,
+    ChooseMonth,
+    CreateMonth,
+    Entrys,
+    CreateEntry,
+}
+
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
 const HEADER_SVG: Asset = asset!("/assets/header.svg");
@@ -11,79 +20,58 @@ fn main() {
 
 #[component]
 fn App() -> Element {
+    let view = use_signal(|| View::ProfileSelection);
+
     rsx! {
         document::Link { rel: "icon", href: FAVICON }
         document::Link { rel: "stylesheet", href: MAIN_CSS }
-        Hero {}
 
+        match *view.read() {
+            View::ProfileSelection => rsx! { ProfileSelection { view } },
+            _ => rsx! { ChooseMonth { view } },
+        }
     }
 }
-
 #[component]
-pub fn Hero() -> Element {
+pub fn ChooseMonth(view: Signal<View>) -> Element {
     rsx! {
-                div {
-                    style: "display: flex; flex-direction: column; height: 100vh; margin: 0; padding: 0;",
-
-                    div {
-                            style: "display: flex; flex: 0 0 10%; width: 100%;",
-
-                            button {
+         button {
                                 style: "flex: 1; background-color: #808080; color: white; border: none; padding: 10px; margin: 5px;",
                                 onclick: move |_| {
-                                    println!("Monat auswaehlen");
-                                    database::get_months("Gaby".to_string());
+                                    view.set(View::ProfileSelection);
                                 },
                                 "Monat auswaehlen"
                             }
-
-                            button {
+    }
+}
+#[component]
+pub fn main_view (view: Signal<View>) -> Element {
+    rsx! {
+         button {
                                 style: "flex: 1; background-color: #808080; color: white; border: none; padding: 10px; margin: 5px;",
                                 onclick: move |_| {
-                                    println!("Button 2 clicked!");
+                                    view.set(View::ProfileSelection);
                                 },
-                                "Neuer Monat"
+                                "Monat auswaehlen"
                             }
-                        }
+    }
+}
 
-                    // Scrollable area - 80% height
-                    div {
-                            id: "scrollable", // ✅ This matches the CSS selector
-                            div {
-                                for month in database::get_months("Gaby".to_string()) {
-                                    div {
-                                        button {
-                                            style: "flex: 1; background-color: #808080; color: white; border: none; padding: 10px; margin: 5px;",
-                                            onclick: move |_| {
-                                                println!("Button 2 clicked!");
-                                            },
-                                            "{month.month} {month.year}"
-                                    }
-                                    }
-                                }
+pub fn ProfileSelection(view: Signal<View>) -> Element {
+    let profiles = database::get_all_profiles();
+    rsx! {
+        for profile in profiles {
+            div {
+            button {
+                style: "flex: 1; background-color: #808080; color: white; border: none; padding: 10px; margin: 5px;",
+                onclick: move |_| {
+                    view.set(View::ChooseMonth);
+                },
+                "{profile.name}"
+            }
+            }
+        }
 
-                            }
-
-                        }
-
-                    // Bottom button - 10% height
-                    div {
-                        style: "display: flex; flex: 0 0 10%; width: 100%;",
-                     button {
-                        onclick: move |_| {
-                            println!("+++ tag hinzufuegen +++");
-                        },
-                        "+++ Neuer Eintrag +++"
-                    }
-
-    button {
-                        onclick: move |_| {
-                            println!("+++ Neuer Eintrag +++");
-                        },
-                        "Teilen"
-                    }
-                    }
-
-                }
-                }
+                            
+    }
 }

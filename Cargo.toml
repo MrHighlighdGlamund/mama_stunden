@@ -8,7 +8,11 @@ edition = "2021"
 
 [dependencies]
 dioxus = { version = "0.6.0", features = [] }
-rusqlite = "0.34.0"
+rusqlite = { version = "0.34.0", features = ["bundled"] }
+ndk = "0.7"
+ndk-glue = "0.7"
+jni = "0.21"
+printpdf = "0.5"
 
 [features]
 default = ["mobile"]

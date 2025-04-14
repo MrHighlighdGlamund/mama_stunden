@@ -1,0 +1,284 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [com.google.android.material:material:1.8.0] /home/glamund/.gradle/caches/8.9/transforms/4d3b52ebbeffd221f9a6616ff4121e68/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/48a42ff4ebba412fa682dffe11805e53/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/glamund/.gradle/caches/8.9/transforms/a8db5c6899d569d3da74824d9d571e7d/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/85ec1fc53f4da238228dace6b388fbf3/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/5ff4a534b700cb9eb014a42b9d5470ef/transformed/webkit-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/a0a7a1227136a9a966c314df48cc6b9e/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/glamund/.gradle/caches/8.9/transforms/d4e018c585fa3afc78186133fe4965ad/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/glamund/.gradle/caches/8.9/transforms/4f33bb4c9e357086c22b64da8b37263d/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/d16bc721888e33c656cc73e89656566c/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/2b3e8b116c45aeb4ce46105e7dedb90e/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/d83d1fb2d0d432a1118396b406b19e58/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/52636bb01ca99dfd3f5b2886e79cec3d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/bd6185d6087f989ea08668c87f5cb70e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/c70ed19b66ed42015ecefe247994a819/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/3c5aa750831c42bb42a6c2195277e29a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/694e768c99f5bb0eef211453739850f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/40350e40296e7b9591b42ba119dec983/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/aaaa3b4690e90189e006dc48ec786163/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/f98c576ceec889f38e5d5cd19196c00f/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/07521c562060c27bf044bb4d65a8eeff/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/73d2996c3f6acbf2c8867eb5d3feb473/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/f4e5566a5c8557e3a33c3137b9538ca4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/c1fe7ea945bdb999e792177f7dd6d511/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/glamund/.gradle/caches/8.9/transforms/e10aac5811d7d0e900e8ab145b66510f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/00d43de02276f7cfc26bf7d7278e4b4b/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/695e5dc0f0ab0a1cbed6492867a01faa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/8dd418118921cd6147a2fce46764d713/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/68a1228d72d8a4cef48ccf74649872e0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/629030711504ff2ff4db08d6665635bf/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/glamund/.gradle/caches/8.9/transforms/ab859a9cd0c4b08b99cf3fa3a2a0447e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/506bb1e10fbc68818d8a0b49a71822d7/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/glamund/.gradle/caches/8.9/transforms/122492cbd0bb730db6e6f374542c4263/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/a6401554fbf3b193519af37f8c4ada5a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/ccf4e12be962f2b18fa1f17ee7ca0f6a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/1445784b02f836d1e331deaf28e0f0fb/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/05e4f6bfcd961d72060470790e3c5804/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/9ee571fbda1f8e2aaa009b8d63515253/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:6:5-82
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:6:22-79
+application
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:5-31:19
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:5-31:19
+MERGED from [com.google.android.material:material:1.8.0] /home/glamund/.gradle/caches/8.9/transforms/4d3b52ebbeffd221f9a6616ff4121e68/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0] /home/glamund/.gradle/caches/8.9/transforms/4d3b52ebbeffd221f9a6616ff4121e68/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/glamund/.gradle/caches/8.9/transforms/a8db5c6899d569d3da74824d9d571e7d/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/glamund/.gradle/caches/8.9/transforms/a8db5c6899d569d3da74824d9d571e7d/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/695e5dc0f0ab0a1cbed6492867a01faa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/695e5dc0f0ab0a1cbed6492867a01faa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:41-67
+	android:label
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:hasCode
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:18-40
+	android:icon
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:68-102
+	android:theme
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:8:42-73
+provider#androidx.core.content.FileProvider
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:9:7-17:12
+	android:grantUriPermissions
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:12:5-39
+	android:authorities
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:11:9-55
+	android:exported
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:13:5-29
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:10:5-54
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:14:5-16:46
+	android:resource
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:16:9-43
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:15:9-59
+activity#dev.dioxus.main.MainActivity
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:19:9-30:20
+	android:screenOrientation
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:23:11-47
+	android:label
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:21:11-43
+	android:exported
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:20:11-34
+	android:configChanges
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:19:19-80
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:22:11-54
+meta-data#android.app.lib_name
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:24:13-89
+	android:value
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:24:60-86
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:24:24-59
+meta-data#android.app.func_name
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:25:13-104
+	android:value
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:25:61-101
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:25:24-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.8.0] /home/glamund/.gradle/caches/8.9/transforms/4d3b52ebbeffd221f9a6616ff4121e68/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0] /home/glamund/.gradle/caches/8.9/transforms/4d3b52ebbeffd221f9a6616ff4121e68/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/48a42ff4ebba412fa682dffe11805e53/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/48a42ff4ebba412fa682dffe11805e53/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/glamund/.gradle/caches/8.9/transforms/a8db5c6899d569d3da74824d9d571e7d/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/glamund/.gradle/caches/8.9/transforms/a8db5c6899d569d3da74824d9d571e7d/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/85ec1fc53f4da238228dace6b388fbf3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/85ec1fc53f4da238228dace6b388fbf3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/5ff4a534b700cb9eb014a42b9d5470ef/transformed/webkit-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] /home/glamund/.gradle/caches/8.9/transforms/5ff4a534b700cb9eb014a42b9d5470ef/transformed/webkit-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/a0a7a1227136a9a966c314df48cc6b9e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/a0a7a1227136a9a966c314df48cc6b9e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/glamund/.gradle/caches/8.9/transforms/d4e018c585fa3afc78186133fe4965ad/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/glamund/.gradle/caches/8.9/transforms/d4e018c585fa3afc78186133fe4965ad/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/glamund/.gradle/caches/8.9/transforms/4f33bb4c9e357086c22b64da8b37263d/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/glamund/.gradle/caches/8.9/transforms/4f33bb4c9e357086c22b64da8b37263d/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/d16bc721888e33c656cc73e89656566c/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/d16bc721888e33c656cc73e89656566c/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/2b3e8b116c45aeb4ce46105e7dedb90e/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/2b3e8b116c45aeb4ce46105e7dedb90e/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/d83d1fb2d0d432a1118396b406b19e58/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/d83d1fb2d0d432a1118396b406b19e58/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/52636bb01ca99dfd3f5b2886e79cec3d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/52636bb01ca99dfd3f5b2886e79cec3d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/bd6185d6087f989ea08668c87f5cb70e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/bd6185d6087f989ea08668c87f5cb70e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/c70ed19b66ed42015ecefe247994a819/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/c70ed19b66ed42015ecefe247994a819/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/3c5aa750831c42bb42a6c2195277e29a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/3c5aa750831c42bb42a6c2195277e29a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/694e768c99f5bb0eef211453739850f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/694e768c99f5bb0eef211453739850f4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/40350e40296e7b9591b42ba119dec983/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/40350e40296e7b9591b42ba119dec983/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/aaaa3b4690e90189e006dc48ec786163/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/aaaa3b4690e90189e006dc48ec786163/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/f98c576ceec889f38e5d5cd19196c00f/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/f98c576ceec889f38e5d5cd19196c00f/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/07521c562060c27bf044bb4d65a8eeff/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/07521c562060c27bf044bb4d65a8eeff/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/73d2996c3f6acbf2c8867eb5d3feb473/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/73d2996c3f6acbf2c8867eb5d3feb473/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/f4e5566a5c8557e3a33c3137b9538ca4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/f4e5566a5c8557e3a33c3137b9538ca4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/c1fe7ea945bdb999e792177f7dd6d511/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/glamund/.gradle/caches/8.9/transforms/c1fe7ea945bdb999e792177f7dd6d511/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/glamund/.gradle/caches/8.9/transforms/e10aac5811d7d0e900e8ab145b66510f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/glamund/.gradle/caches/8.9/transforms/e10aac5811d7d0e900e8ab145b66510f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/00d43de02276f7cfc26bf7d7278e4b4b/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/00d43de02276f7cfc26bf7d7278e4b4b/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/695e5dc0f0ab0a1cbed6492867a01faa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/695e5dc0f0ab0a1cbed6492867a01faa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/8dd418118921cd6147a2fce46764d713/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/8dd418118921cd6147a2fce46764d713/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/68a1228d72d8a4cef48ccf74649872e0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/68a1228d72d8a4cef48ccf74649872e0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/629030711504ff2ff4db08d6665635bf/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/629030711504ff2ff4db08d6665635bf/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/glamund/.gradle/caches/8.9/transforms/ab859a9cd0c4b08b99cf3fa3a2a0447e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/glamund/.gradle/caches/8.9/transforms/ab859a9cd0c4b08b99cf3fa3a2a0447e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/506bb1e10fbc68818d8a0b49a71822d7/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/glamund/.gradle/caches/8.9/transforms/506bb1e10fbc68818d8a0b49a71822d7/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/glamund/.gradle/caches/8.9/transforms/122492cbd0bb730db6e6f374542c4263/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/glamund/.gradle/caches/8.9/transforms/122492cbd0bb730db6e6f374542c4263/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/a6401554fbf3b193519af37f8c4ada5a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/a6401554fbf3b193519af37f8c4ada5a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/ccf4e12be962f2b18fa1f17ee7ca0f6a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/ccf4e12be962f2b18fa1f17ee7ca0f6a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/1445784b02f836d1e331deaf28e0f0fb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/1445784b02f836d1e331deaf28e0f0fb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/05e4f6bfcd961d72060470790e3c5804/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/05e4f6bfcd961d72060470790e3c5804/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/9ee571fbda1f8e2aaa009b8d63515253/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/glamund/.gradle/caches/8.9/transforms/9ee571fbda1f8e2aaa009b8d63515253/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/glamund/.gradle/caches/8.9/transforms/254965adc7c46cc13464c444615d5aea/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/glamund/.gradle/caches/8.9/transforms/80f4ba2c1616f02f758c99217344aca0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.sohnidas_studios.boonk_arbeitszeit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.sohnidas_studios.boonk_arbeitszeit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/glamund/.gradle/caches/8.9/transforms/7ac6852173be696cefb934a1384cb203/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

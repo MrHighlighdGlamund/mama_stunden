@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sohnidas_studios.boonk_arbeitszeit.app-mergeReleaseResources-27:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/home/glamund/.gradle/caches/8.9/transforms/85ec1fc53f4da238228dace6b388fbf3/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

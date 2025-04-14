@@ -11,9 +11,12 @@ dioxus = { version = "0.6.0", features = [] }
 rusqlite = { version = "0.34.0", features = ["bundled"] }
 ndk = "0.7"
 ndk-glue = "0.7"
-jni = "0.21"
-printpdf = "0.5"
-
+jni = "0.20"
+crossbeam-channel = "0.5"
+chrono = "0.4"
+pdf-create = "0.1.1"
+pdf-canvas = "0.7.0"
+printpdf = "0.7.0"
 [features]
 default = ["mobile"]
 web = ["dioxus/web"]
@@ -31,3 +34,4 @@ inherits = "dev"
 
 [profile.android-dev]
 inherits = "dev"
+

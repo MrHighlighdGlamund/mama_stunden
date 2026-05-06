@@ -64,12 +64,17 @@ pub fn create_entry(view: Signal<View>) -> Element {
             _ => minutes.set(0),
         }
     });
+use chrono::{Datelike, NaiveDate};
 
     let min_date = format!("{}-{:02}-01", current_year, current_month);
-    let last_day = NaiveDate::from_ymd_opt(current_year, current_month as u32 + 1, 1)
-        .unwrap()
-        .pred()
-        .day();
+    let date = NaiveDate::from_ymd_opt(current_year, current_month as u32, 1).unwrap();
+let last_day = date
+    .with_day(1).unwrap()
+    .with_month(current_month as u32).unwrap()
+    .succ_opt().unwrap()
+    .with_day(1).unwrap()
+    .pred()
+    .day();
     let max_date = format!("{}-{:02}-{:02}", current_year, current_month, last_day);
 
     rsx! {

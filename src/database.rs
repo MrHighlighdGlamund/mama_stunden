@@ -66,7 +66,7 @@ impl State {
                 date: "".to_string(),
                 text: "".to_string(),
                 hours: 0.0,
-            }
+            },
         }
     }
     pub fn share_file(&self, file_name: String) {
@@ -190,127 +190,109 @@ impl State {
         self.active_month_text.with_mut(|m| *m = month);
         self.active_year.with_mut(|m| *m = year);
         self.active_month_number.with_mut(|m| *m = 1);
-        
     }
     pub fn get_last_month_with_entries(&mut self) {
-        // get the last month id which has entries
-        let mut stmt = self
-            .db_connection
-            .prepare(
-                "SELECT m.id, m.month, m.year
-            FROM months m
-            JOIN entries e ON m.id = e.month_id
-            WHERE m.person_id = ?
-            GROUP BY m.id
-            ORDER BY m.year DESC, 
-            CASE m.month
-                WHEN 'Januar' THEN 1
-                WHEN 'Februar' THEN 2
-                WHEN 'März' THEN 3
-                WHEN 'April' THEN 4
-                WHEN 'Mai' THEN 5
-                WHEN 'Juni' THEN 6
-                WHEN 'Juli' THEN 7
-                WHEN 'August' THEN 8
-                WHEN 'September' THEN 9
-                WHEN 'Oktober' THEN 10
-                WHEN 'November' THEN 11
-                WHEN 'Dezember' THEN 12
-                ELSE 13  -- For any invalid month name
-            END DESC
-            LIMIT 1;",
-            )
-            .unwrap();
-        let active_profile_id = self.active_profile_id.read().clone();
-        let mut rows = stmt.query(params![active_profile_id]).unwrap();
-        match rows.next() {
-            Ok(row) => match row {
-                Some(row) => {
-                    let month_id: i32 = row.get(0).unwrap();
-                    let month: String = row.get(1).unwrap();
-                    let year: i32 = row.get(2).unwrap();
-                    self.active_month.with_mut(|m| *m = month_id);
-                    let mut month_number: i32 = 0;
-                    match month.as_str() {
-                        "Januar" => month_number = 1,
-                        "Februar" => month_number = 2,
-                        "März" => month_number = 3,
-                        "April" => month_number = 4,
-                        "Mai" => month_number = 5,
-                        "Juni" => month_number = 6,
-                        "Juli" => month_number = 7,
-                        "August" => month_number = 8,
-                        "September" => month_number = 9,
-                        "Oktober" => month_number = 10,
-                        "November" => month_number = 11,
-                        "Dezember" => month_number = 12,
-                        _ => month_number = 0,
-                    }
-                    self.active_month_number.with_mut(|m| *m = month_number);
-                    self.active_month_text.with_mut(|m| *m = month);
-                    self.active_year.with_mut(|m| *m = year);
-                    return;
-                }
-                None => {
-                    println!("No rows found");
-                }
-            },
-            Err(_) => {
-                println!("No rows found");
-            }
-        }
-        println!("Person ID: {}", active_profile_id);
-        let mut stmt = self
-            .db_connection
-            .prepare(
-                "SELECT id, month, year 
-            FROM months 
-            WHERE person_id = ? 
-            ORDER BY year ASC, 
-            CASE month
-                WHEN 'Januar' THEN 1
-                WHEN 'Februar' THEN 2
-                WHEN 'März' THEN 3
-                WHEN 'April' THEN 4
-                WHEN 'Mai' THEN 5
-                WHEN 'Juni' THEN 6
-                WHEN 'Juli' THEN 7
-                WHEN 'August' THEN 8
-                WHEN 'September' THEN 9
-                WHEN 'Oktober' THEN 10
-                WHEN 'November' THEN 11
-                WHEN 'Dezember' THEN 12
-                ELSE 13
-            END ASC
-            LIMIT 1;",
-            )
-            .unwrap();
-        let mut rows = stmt.query(params![active_profile_id]).unwrap();
+    let active_profile_id = self.active_profile_id.read().clone();
 
-        if let Some(row) = rows.next().unwrap() {
-            let month_id: i32 = row.get(0).unwrap();
-            let month: String = row.get(1).unwrap();
-            let year: i32 = row.get(2).unwrap();
-            self.active_month.with_mut(|m| *m = month_id);
-            self.active_month_text.with_mut(|m| *m = month.clone());
-            self.active_year.with_mut(|m| *m = year);
-            match month.as_str() {
-                "Januar" => self.active_month_number.with_mut(|m| *m = 1),
-                "Februar" => self.active_month_number.with_mut(|m| *m = 2),
-                "März" => self.active_month_number.with_mut(|m| *m = 3),
-                "April" => self.active_month_number.with_mut(|m| *m = 4),
-                "Mai" => self.active_month_number.with_mut(|m| *m = 5),
-                "Juni" => self.active_month_number.with_mut(|m| *m = 6),
-                "Juli" => self.active_month_number.with_mut(|m| *m = 7),
-                "August" => self.active_month_number.with_mut(|m| *m = 8),
-                "September" => self.active_month_number.with_mut(|m| *m = 9),
-                "Oktober" => self.active_month_number.with_mut(|m| *m = 10),
-                "November" => self.active_month_number.with_mut(|m| *m = 11),
-                "Dezember" => self.active_month_number.with_mut(|m| *m = 12),
-                _ => self.active_month_number.with_mut(|m| *m = 0),
-            }
-        }
+    // First try to get the latest month WITH entries
+    let row_data = {
+        let mut stmt = self.db_connection.prepare(
+            "SELECT m.id, m.month, m.year
+            FROM months m
+            WHERE m.person_id = ?
+              AND EXISTS (SELECT 1 FROM entries e WHERE e.month_id = m.id)
+            ORDER BY m.year DESC,
+                     CASE m.month
+                         WHEN 'Januar' THEN 1
+                         WHEN 'Februar' THEN 2
+                         WHEN 'März' THEN 3
+                         WHEN 'April' THEN 4
+                         WHEN 'Mai' THEN 5
+                         WHEN 'Juni' THEN 6
+                         WHEN 'Juli' THEN 7
+                         WHEN 'August' THEN 8
+                         WHEN 'September' THEN 9
+                         WHEN 'Oktober' THEN 10
+                         WHEN 'November' THEN 11
+                         WHEN 'Dezember' THEN 12
+                         ELSE 0
+                     END DESC
+            LIMIT 1;"
+        ).unwrap();
+
+        let mut rows = stmt.query(params![active_profile_id]).unwrap();
+        rows.next().unwrap().map(|row| {
+            (row.get::<_, i32>(0).unwrap(), 
+             row.get::<_, String>(1).unwrap(), 
+             row.get::<_, i32>(2).unwrap())
+        })
+    }; // stmt is dropped here
+
+    if let Some((month_id, month, year)) = row_data {
+        self.apply_month_data(month_id, month, year);
+        return;
     }
+
+    // Fallback: get the latest month WITHOUT entries
+    let row_data = {
+        let mut stmt = self.db_connection.prepare(
+            "SELECT id, month, year
+            FROM months
+            WHERE person_id = ?
+            ORDER BY year DESC,
+                     CASE month
+                         WHEN 'Januar' THEN 1
+                         WHEN 'Februar' THEN 2
+                         WHEN 'März' THEN 3
+                         WHEN 'April' THEN 4
+                         WHEN 'Mai' THEN 5
+                         WHEN 'Juni' THEN 6
+                         WHEN 'Juli' THEN 7
+                         WHEN 'August' THEN 8
+                         WHEN 'September' THEN 9
+                         WHEN 'Oktober' THEN 10
+                         WHEN 'November' THEN 11
+                         WHEN 'Dezember' THEN 12
+                         ELSE 0
+                     END DESC
+            LIMIT 1;"
+        ).unwrap();
+
+        let mut rows = stmt.query(params![active_profile_id]).unwrap();
+        rows.next().unwrap().map(|row| {
+            (row.get::<_, i32>(0).unwrap(), 
+             row.get::<_, String>(1).unwrap(), 
+             row.get::<_, i32>(2).unwrap())
+        })
+    }; // stmt is dropped here
+
+    if let Some((month_id, month, year)) = row_data {
+        self.apply_month_data(month_id, month, year);
+    }
+}
+
+fn apply_month_data(&mut self, month_id: i32, month: String, year: i32) {
+    self.active_month.with_mut(|m| *m = month_id);
+    self.active_month_text.with_mut(|m| *m = month.clone());
+    self.active_year.with_mut(|m| *m = year);
+    
+    let month_number = match month.as_str() {
+        "Januar" => 1,
+        "Februar" => 2,
+        "März" => 3,
+        "April" => 4,
+        "Mai" => 5,
+        "Juni" => 6,
+        "Juli" => 7,
+        "August" => 8,
+        "September" => 9,
+        "Oktober" => 10,
+        "November" => 11,
+        "Dezember" => 12,
+        _ => 0,
+    };
+    self.active_month_number.with_mut(|m| *m = month_number);
+}
     pub fn save_entry(&self, entry: Entry) {
         let active_month: i32 = *self.active_month.read();
         let mut stmt = self

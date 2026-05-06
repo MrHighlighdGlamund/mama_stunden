@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /home/glamund/Documents/mama_stunden/android/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /home/glamund/repos/mama_stunden/android/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.core.content.FileProvider { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
@@ -94,8 +94,8 @@
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from /home/glamund/Documents/mama_stunden/android/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
-# The proguard configuration file for the following section is /home/glamund/Documents/mama_stunden/android/app/src/main/kotlin/dev/dioxus/main/proguard-wry.pro
+# End of content from /home/glamund/repos/mama_stunden/android/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
+# The proguard configuration file for the following section is /home/glamund/repos/mama_stunden/android/app/src/main/kotlin/dev/dioxus/main/proguard-wry.pro
 # THIS FILE IS AUTO-GENERATED. DO NOT MODIFY!!
 
 # Copyright 2020-2023 Tauri Programme within The Commons Conservancy
@@ -136,8 +136,8 @@
 }
 
 
-# End of content from /home/glamund/Documents/mama_stunden/android/app/src/main/kotlin/dev/dioxus/main/proguard-wry.pro
-# The proguard configuration file for the following section is /home/glamund/Documents/mama_stunden/android/app/proguard-rules.pro
+# End of content from /home/glamund/repos/mama_stunden/android/app/src/main/kotlin/dev/dioxus/main/proguard-wry.pro
+# The proguard configuration file for the following section is /home/glamund/repos/mama_stunden/android/app/proguard-rules.pro
 # Add project specific ProGuard rules here.
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
@@ -159,8 +159,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-# End of content from /home/glamund/Documents/mama_stunden/android/app/proguard-rules.pro
-# The proguard configuration file for the following section is /home/glamund/Documents/mama_stunden/android/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
+# End of content from /home/glamund/repos/mama_stunden/android/app/proguard-rules.pro
+# The proguard configuration file for the following section is /home/glamund/repos/mama_stunden/android/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -251,7 +251,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /home/glamund/Documents/mama_stunden/android/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
+# End of content from /home/glamund/repos/mama_stunden/android/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0
 # The proguard configuration file for the following section is /home/glamund/.gradle/caches/8.9/transforms/4d3b52ebbeffd221f9a6616ff4121e68/transformed/material-1.8.0/proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #

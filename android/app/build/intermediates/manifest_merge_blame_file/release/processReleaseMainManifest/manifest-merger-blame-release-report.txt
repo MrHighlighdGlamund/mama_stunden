@@ -9,14 +9,14 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:4:5-67
-11-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:4:22-64
+11-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:5:5-79
-12-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:5:22-76
+12-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-13-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:6:5-82
-13-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:6:22-79
+13-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:6:5-82
+13-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:6:22-79
 14
 15    <permission
 15-->[androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
@@ -30,72 +30,72 @@
 19-->[androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:5-31:19
+21-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:7:5-31:19
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.9.0] /home/glamund/.gradle/caches/8.9/transforms/aa273a9fa92598fb55f3cf4fb8196b38/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 23        android:extractNativeLibs="false"
 24        android:hasCode="true"
-24-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:18-40
+24-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:7:18-40
 25        android:icon="@mipmap/ic_launcher"
-25-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:68-102
+25-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:7:68-102
 26        android:label="@string/app_name"
-26-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:8:9-41
+26-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:8:9-41
 27        android:supportsRtl="true"
-27-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:7:41-67
+27-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:7:41-67
 28        android:theme="@style/AppTheme" >
-28-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:8:42-73
+28-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:8:42-73
 29        <provider
-29-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:9:7-17:12
+29-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:9:7-17:12
 30            android:name="androidx.core.content.FileProvider"
-30-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:10:5-54
+30-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:10:5-54
 31            android:authorities="dev.dioxus.main.provider"
-31-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:11:9-55
+31-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:11:9-55
 32            android:exported="false"
-32-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:13:5-29
+32-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:13:5-29
 33            android:grantUriPermissions="true" >
-33-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:12:5-39
+33-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:12:5-39
 34            <meta-data
-34-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:14:5-16:46
+34-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:14:5-16:46
 35                android:name="android.support.FILE_PROVIDER_PATHS"
-35-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:15:9-59
+35-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:15:9-59
 36                android:resource="@xml/file_paths" />
-36-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:16:9-43
+36-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:16:9-43
 37        </provider>
 38
 39        <activity
-39-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:19:9-30:20
+39-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:19:9-30:20
 40            android:name="dev.dioxus.main.MainActivity"
-40-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:22:11-54
+40-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:22:11-54
 41            android:configChanges="orientation|screenSize|keyboardHidden"
-41-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:19:19-80
+41-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:19:19-80
 42            android:exported="true"
-42-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:20:11-34
+42-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:20:11-34
 43            android:label="@string/app_name"
-43-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:21:11-43
+43-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:21:11-43
 44            android:screenOrientation="portrait" >
-44-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:23:11-47
+44-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:23:11-47
 45            <meta-data
-45-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:24:13-89
+45-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:24:13-89
 46                android:name="android.app.lib_name"
-46-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:24:24-59
+46-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:24:24-59
 47                android:value="dioxusmain" />
-47-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:24:60-86
+47-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:24:60-86
 48            <meta-data
-48-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:25:13-104
+48-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:25:13-104
 49                android:name="android.app.func_name"
-49-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:25:24-60
+49-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:25:24-60
 50                android:value="ANativeActivity_onCreate" />
-50-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:25:61-101
+50-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:25:61-101
 51
 52            <intent-filter>
-52-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:26:13-29:29
+52-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:26:13-29:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:27:17-69
-53-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:27:25-66
+53-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:27:17-69
+53-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:27:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:28:17-77
-55-->/home/glamund/Documents/mama_stunden/android/app/src/main/AndroidManifest.xml:28:27-74
+55-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:28:17-77
+55-->/home/glamund/repos/mama_stunden/android/app/src/main/AndroidManifest.xml:28:27-74
 56            </intent-filter>
 57        </activity>
 58

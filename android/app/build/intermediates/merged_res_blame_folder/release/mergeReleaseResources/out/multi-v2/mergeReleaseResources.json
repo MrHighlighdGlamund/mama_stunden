@@ -5687,6 +5687,40 @@
                     }
                 },
                 {
+                    "source": "/home/glamund/repos/mama_stunden/android/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "551,552,553",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "28816,28862,28909",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "28857,28904,28955"
+                    }
+                },
+                {
+                    "source": "/home/glamund/repos/mama_stunden/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "54",
+                        "endOffsets": "66"
+                    },
+                    "to": {
+                        "startLines": "1713",
+                        "startColumns": "4",
+                        "startOffsets": "111644",
+                        "endColumns": "54",
+                        "endOffsets": "111694"
+                    }
+                },
+                {
                     "source": "/home/glamund/.gradle/caches/8.9/transforms/00d43de02276f7cfc26bf7d7278e4b4b/transformed/savedstate-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -5759,41 +5793,7 @@
                     }
                 },
                 {
-                    "source": "/home/glamund/Documents/mama_stunden/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "54",
-                        "endOffsets": "66"
-                    },
-                    "to": {
-                        "startLines": "1713",
-                        "startColumns": "4",
-                        "startOffsets": "111644",
-                        "endColumns": "54",
-                        "endOffsets": "111694"
-                    }
-                },
-                {
-                    "source": "/home/glamund/Documents/mama_stunden/android/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "551,552,553",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "28816,28862,28909",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "28857,28904,28955"
-                    }
-                },
-                {
-                    "source": "/home/glamund/Documents/mama_stunden/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/glamund/repos/mama_stunden/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",

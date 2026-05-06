@@ -1,4 +1,4 @@
-#Tue Apr 01 12:10:06 CEST 2025
-base.0=/home/glamund/Documents/mama_stunden/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
+#Wed Jan 21 11:12:49 CET 2026
+base.0=/home/glamund/repos/mama_stunden/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
+renamed.0=classes.dex

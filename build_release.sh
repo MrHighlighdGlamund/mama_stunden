@@ -3,11 +3,11 @@
 set -e
 
 
-dx build --platform android --release
+dx6 build --platform android --release
 
 
 # Define source and destination paths
-SRC_PATH="target/dx/dx_test/release/android/app/app/src/main/jniLibs/arm64-v8a/libdioxusmain.so"
+SRC_PATH="/home/glamund/repos/mama_stunden/target/dx/dx_test/release/android/app/app/src/main/jniLibs/arm64-v8a/libdioxusmain.so"
 DST_PATH="android/app/src/main/jniLibs/arm64-v8a/libdioxusmain.so"
 
 # Ensure the destination directory exists
